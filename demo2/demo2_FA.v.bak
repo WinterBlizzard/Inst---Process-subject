@@ -1,0 +1,32 @@
+	/*==============================
+				 XOR_GATE
+	================================
+	Description:
+	This is an xor gate using gate-level modeling.
+
+	Designer Engineer:
+			Compas, Gabriel Zion
+			
+	Date:
+		 10 Apr 2026
+	-----------------------------------------------*/
+	
+	module demo2_FA(cout,sum,A,B,cin)
+	// ports
+		 input  A;
+		 input  B;
+		 input  cin;
+		 outpum sum;
+		 output cout;
+	
+	// nets
+		wire w1,w2,w3;
+	
+	// xor gate
+		xor u1(A,B,w1);
+		xor u2(cin,w1,sum);
+		and u3(,cin,w1,w2);
+		and u4(A,B,w3);
+		or u5(w2,w3,cout)
+	
+	endmodule

@@ -1,0 +1,58 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vdemo2_FA
+Z0 !s110 1775991336
+!i10b 1
+!s100 ADU3GANjW=oiOKej@Xhz]3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IHV;`TDaQcVX0440UE7Sj<2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/quartus2
+w1775991284
+8C:/quartus2/demo2_FA.v
+FC:/quartus2/demo2_FA.v
+!i122 6
+L0 14 19
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1775991336.000000
+!s107 C:/quartus2/demo2_FA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/quartus2/demo2_FA.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+ndemo2_@f@a
+vtestbench
+R0
+!i10b 1
+!s100 ZHMDlXg?RCWNS1^;fkbQe1
+R1
+IBUVPloLd]`_CWPACGD<O:1
+R2
+R3
+w1775990083
+8C:/quartus2/testbench.v
+FC:/quartus2/testbench.v
+!i122 7
+L0 1 31
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/quartus2/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/quartus2/testbench.v|
+!i113 1
+R6
+R7
