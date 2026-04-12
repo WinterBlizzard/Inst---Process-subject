@@ -1,0 +1,15 @@
+# Compile of demo1_xor.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.demo1_xor work.testbench
+# vsim -gui work.demo1_xor work.testbench 
+# Start time: 13:00:37 on Apr 12,2026
+# Loading work.demo1_xor
+# Loading work.testbench
+add wave -position end  sim:/testbench/a
+add wave -position end  sim:/testbench/b
+add wave -position end  sim:/testbench/y
+run -all
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/quartus/demo1_wave.do
+# End time: 13:09:56 on Apr 12,2026, Elapsed time: 0:09:19
+# Errors: 0, Warnings: 6
