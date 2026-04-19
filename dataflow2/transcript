@@ -1,0 +1,17 @@
+# Compile of demo2_FA.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.demo2_FA work.testbench
+# vsim -gui work.demo2_FA work.testbench 
+# Start time: 10:59:33 on Apr 16,2026
+# Loading work.demo2_FA
+# Loading work.testbench
+add wave -position end  sim:/testbench/A
+add wave -position end  sim:/testbench/B
+add wave -position end  sim:/testbench/C
+add wave -position end  sim:/testbench/cout
+add wave -position end  sim:/testbench/sum
+run -all
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/quartus/demo2/wave2.do
+# End time: 11:02:30 on Apr 16,2026, Elapsed time: 0:02:57
+# Errors: 0, Warnings: 5
