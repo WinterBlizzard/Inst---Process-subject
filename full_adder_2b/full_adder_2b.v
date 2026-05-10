@@ -1,0 +1,24 @@
+module full_adder_2b(S, A, B);
+		//port
+		input [1:0] A;
+		input [1:0] B;
+		output [2:0] S;
+		wire w;
+		
+		//half-adder
+		Half_Adder ha(
+			.sum		(S[0]), 
+			.carry	(w), 
+			.A			(A[0]), 
+			.B			(B[0])
+		);
+
+		//full-adder
+		full_adder fa(
+		.sum  	(S[1]), 
+		.cout		(S[2]), 
+		.A     		(A[1]), 
+		.B     		(B[1]), 
+		.cin  		(w)
+		);
+endmodule

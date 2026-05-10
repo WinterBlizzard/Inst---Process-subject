@@ -1,0 +1,196 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vfull_adder
+Z0 !s110 1778376740
+!i10b 1
+!s100 QLo=jl@Cz5WiI0acC:CVL0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IkTo79fz7ZB1WleZ4f9mQ90
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/quartus/full_adder_2b
+w1778119653
+8C:/quartus/full_adder_2b/full_adder.v
+FC:/quartus/full_adder_2b/full_adder.v
+!i122 110
+L0 15 24
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1778376740.000000
+!s107 C:/quartus/full_adder_2b/full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/quartus/full_adder_2b/full_adder.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vfull_adder_2b
+R0
+!i10b 1
+!s100 ^<;ffYW:Z0KfK1T:U;Xkm1
+R1
+I45Nc<kTQK:CO@cCL>;dfK2
+R2
+R3
+w1778373301
+8C:/quartus/full_adder_2b/full_adder_2b.v
+FC:/quartus/full_adder_2b/full_adder_2b.v
+!i122 112
+L0 1 24
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/quartus/full_adder_2b/full_adder_2b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/quartus/full_adder_2b/full_adder_2b.v|
+!i113 1
+R6
+R7
+vfull_adder_4b
+R0
+!i10b 1
+!s100 KZgh8^7O?G@ZKE7ImRLB?1
+R1
+ITATzCYg5KJ6ZRI1K2`^V:3
+R2
+R3
+w1778373602
+8C:/quartus/full_adder_2b/full_adder_4b.v
+FC:/quartus/full_adder_2b/full_adder_4b.v
+!i122 114
+L0 14 43
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/quartus/full_adder_2b/full_adder_4b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/quartus/full_adder_2b/full_adder_4b.v|
+!i113 1
+R6
+R7
+vHalf_Adder
+!s110 1778376739
+!i10b 1
+!s100 S@_iZEUB5j^J4SdcKi]:Q2
+R1
+IK`Wk9CaaL=SV69V9h7R?z2
+R2
+R3
+w1778117465
+8C:/quartus/full_adder_2b/Half_Adder.v
+FC:/quartus/full_adder_2b/Half_Adder.v
+!i122 108
+L0 15 19
+R4
+r1
+!s85 0
+31
+Z8 !s108 1778376739.000000
+!s107 C:/quartus/full_adder_2b/Half_Adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/quartus/full_adder_2b/Half_Adder.v|
+!i113 1
+R6
+R7
+n@half_@adder
+vtb_full_adder
+R0
+!i10b 1
+!s100 fmk2e_^WJ10QNWgb:4`9i2
+R1
+I]zQD=@NCP>k=:0Qb^CPSi2
+R2
+R3
+w1778119676
+8C:/quartus/full_adder_2b/tb_full_adder.v
+FC:/quartus/full_adder_2b/tb_full_adder.v
+!i122 111
+L0 2 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/quartus/full_adder_2b/tb_full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/quartus/full_adder_2b/tb_full_adder.v|
+!i113 1
+R6
+R7
+vtb_full_adder_2b
+R0
+!i10b 1
+!s100 1i9Bfj^iUo3R^djX4iYA63
+R1
+I1dlV[5Qj31JF<<`nEF3j03
+R2
+R3
+w1778122856
+8C:/quartus/full_adder_2b/tb_full_adder_2b.v
+FC:/quartus/full_adder_2b/tb_full_adder_2b.v
+!i122 113
+L0 2 27
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/quartus/full_adder_2b/tb_full_adder_2b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/quartus/full_adder_2b/tb_full_adder_2b.v|
+!i113 1
+R6
+R7
+vtb_full_adder_4b
+R0
+!i10b 1
+!s100 JMiWIcf`3I=?`US==oM0`1
+R1
+I:Q?8oeeH8e:@OeiK4ja6Q1
+R2
+R3
+w1778376711
+8C:/quartus/full_adder_2b/tb_full_adder_4b.v
+FC:/quartus/full_adder_2b/tb_full_adder_4b.v
+!i122 115
+L0 1 27
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/quartus/full_adder_2b/tb_full_adder_4b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/quartus/full_adder_2b/tb_full_adder_4b.v|
+!i113 1
+R6
+R7
+vtb_half_adder
+R0
+!i10b 1
+!s100 N;k0Ja@_Fa5fPS2YP9<HL0
+R1
+IT21V?RG4A6:^7;J=9c2^X3
+R2
+R3
+w1778118510
+8C:/quartus/full_adder_2b/tb_Half_Adder.v
+FC:/quartus/full_adder_2b/tb_Half_Adder.v
+!i122 109
+L0 2 23
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/quartus/full_adder_2b/tb_Half_Adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/quartus/full_adder_2b/tb_Half_Adder.v|
+!i113 1
+R6
+R7
