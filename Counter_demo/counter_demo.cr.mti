@@ -1,0 +1,15 @@
+C:/quartus/Counter_demo/testbench.v {1 {vlog -work work -stats=none C:/quartus/Counter_demo/testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module teshbench
+
+Top level modules:
+	teshbench
+
+} {} {}} C:/quartus/Counter_demo/counter_demo.v {1 {vlog -work work -stats=none C:/quartus/Counter_demo/counter_demo.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter_demo
+
+Top level modules:
+	counter_demo
+
+} {} {}}

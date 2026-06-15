@@ -1,0 +1,16 @@
+# Compile of Prelim_Exam_Compas.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.Prelim_Exam_Compas work.testbench
+# vsim -gui work.Prelim_Exam_Compas work.testbench 
+# Start time: 09:17:44 on Apr 30,2026
+# Loading work.Prelim_Exam_Compas
+# Loading work.testbench
+add wave -position end  sim:/testbench/A
+add wave -position end  sim:/testbench/B
+add wave -position end  sim:/testbench/Y0
+add wave -position end  sim:/testbench/Y1
+add wave -position end  sim:/testbench/Y2
+add wave -position end  sim:/testbench/Y3
+run
