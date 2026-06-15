@@ -1,0 +1,12 @@
+/*==================================================
+										  COUNTER DEMO
+====================================================
+Description:
+		This is counter demo that counts from 0-15 with active low reset
+		
+Design Engineer
+		Compas, Gabriel Zion
+		
+Date 
+		4 June 2026
+--------------------------------------------------------------*/
